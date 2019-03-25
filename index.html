@@ -7,41 +7,43 @@
 </head>
 <body>
 <div class=container>
-	<div class=row>
-	<div class="twelve colums">
-		<!--
-		L'utente inserisce il proprio nome in una input
-		box (testo), conferma cliccando su button,
-		l'applicazione lo saluta chiamandolo per nome
-		-->
-		<center>
-		<h1>Saluta</h1>
-		<img src=icona.png class=u-full-width>
-		<p>Inserisci il tuo nome,l'app ti saluterà</p>
-		<form name=saluto>
-		<input type=text name=nome placeholder="scrivi il tuo nome"required>
-		<input type=reset value=Annulla onclick=annulla()>&nbsp;
-				<button type=button onclick=>Saluta onclick=Annulla</button>
-		<p id=risposta></p>
-		</form>
-		
-		
-		</center>
-		</div>
+<div class=row>
+	<div class="twelvw columns">
+	<!--
+	L'utente inserisce il proprio nome in una input
+	box (testo), conferma cliccando su un button,
+	 l'applicazione lo saluta chiamandola per nome 
+	-->
+	<center> 
+<h1>Saluta</h1>
+<img src=icona.png class=u-full-witdh>
+	<p>Inserisci il tuo nome, l'app ti saluterà</p>
+	<form name=saluto>
+	<input type=text name=nome placeholder="scrivi il tuo nome" required="">
+	<input type=reset value=annulla onclick=annulla >&nbsp; 
+	<button type=button onclick=annulla> Saluta</button>
+	<p id=risposta> </p>
+	
+	
+	
+	</center>
+	</form>
 	</div>
 </div>
-
+</div>
 <script>
-	function saluta(){
-		var nome=document.forms[0].nome.value;
-		document.getElementById("risposta").innerHTML="Ciao"+nome+" , come va?";
-		
-	}
+function= saluta(){
+var nome=document.forms[0].nome.value;
+document.getElementById("risposta").innerHTML="Ciao"+nome+" , come va?";
+
+}
+
+function annulla(){
+document.getElementById("risposta").innerHTML=" ";	
 	
-	function annulla(){
-		document.getElementById("risposta").innerHTML=" ";
-		
-	}
+}
+
+
 </script>
 </body>
 </html>
