@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.example"
+versionCode = "22"
+version = "1.6.0" >
+<!-- nome della app -->
+<name>Nome della App qui</name>
+<!-- descrizione -->
+<description>
+Descrizione della app qui
+</description>
+<!-- autore -->
+<author href="https://build.phonegap.com">
+Valerio Calamia
+</author>
+<!-- abilita links esterni -->
+<allow-navigation href="*://*.getskeleton.com/*" />
+
+<!-- piattaforma di riferimento ed icona della app -->
+<platform name="android">
+<icon src="icona.png" density="ldpi" />
+<icon src="icona.png" density="mdpi" />
+<icon src="icona.png" density="hdpi" />
+<icon src="icona.png" density="xhdpi" />
+</platform>
+</widget>
